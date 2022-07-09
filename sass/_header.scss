@@ -1,0 +1,27 @@
+
+
+#logolema { 
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: cabecera;
+    grid-column: 0 / span 2;
+text-align: center; 
+grid-column: span 2;
+background-color: white;
+  }
+  
+.logo h1 { 
+   font-family:sans-serif;
+   font-weight: bold;
+
+  }
+
+
+  @media only screen and (max-width:765px)  {
+    .logo h1 { display: none;
+                   }}
+
+                   .logo img {
+                    width: 100px;
+                    height: 100px;
+                  }  

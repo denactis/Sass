@@ -1,0 +1,22 @@
+.buscar {
+    display: grid;
+  place-items: center;  
+  grid-column: 1; 
+  padding: 55px;
+  margin-bottom: 15px;
+  background-color: gray;
+
+    
+  h2 {
+    font-weight: 600;
+    color: #15374e;
+        
+      }
+
+  button{
+  font-weight: 800;
+  color: #15374e;
+  background-color: #36dcd4;
+  } 
+  
+}

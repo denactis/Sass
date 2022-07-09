@@ -1,0 +1,19 @@
+.quienes {
+    background-color: #36dcd4;
+    text-align: center; 
+    padding: 10px;
+    margin: auto;
+    grid-area: banner;
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    border-radius: 2px;
+  }
+  
+&__:hover {
+    font-size: 25px;
+    border: rgb(27, 153, 136);
+    border-style: double;
+    color: rgb(27, 153, 136);
+    margin: auto;
+  }

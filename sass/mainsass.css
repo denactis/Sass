@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #B3E8E5;
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  grid-area: menu;
+}
+
+nav li {
+  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
+  list-style: none;
+}
+
+nav button :hover {
+  color: aliceblue;
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 765px) {
+  .listanavegacion {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#logolema {
+  display: flex;
+  justify-content: space-evenly;
+  grid-area: cabecera;
+  grid-column: 0/span 2;
+  text-align: center;
+  grid-column: span 2;
+  background-color: white;
+}
+
+.logo h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 765px) {
+  .logo h1 {
+    display: none;
+  }
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.containercards {
+  width: 100%;
+  max-width: 1400px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  grid-area: banner;
+}
+.containercards .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: #B3E8E5;
+}
+.containercards .card img {
+  width: 330px;
+  height: 220px;
+}
+.containercards .card .h4 {
+  font-weight: 600;
+}
+.containercards .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+.containercards .card a {
+  text-decoration: underline;
+  color: #15374e;
+  font-weight: bold;
+}
+.containercards .card .containercards .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.containercards .card .card:hover {
+  color: darkgrey;
+  transform: scale 1.1;
+}
+
+.footer {
+  background-color: #36dcd4;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all 0.5s ease;
+}
+.footer a first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a :hover {
+  color: white;
+}
+
+.buscar {
+  display: grid;
+  place-items: center;
+  grid-column: 1;
+  padding: 55px;
+  margin-bottom: 15px;
+  background-color: gray;
+}
+.buscar h2 {
+  font-weight: 600;
+  color: #15374e;
+}
+.buscar button {
+  font-weight: 800;
+  color: #15374e;
+  background-color: #36dcd4;
+}/*# sourceMappingURL=mainsass.css.map */
